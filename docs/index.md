@@ -1,6 +1,6 @@
 ---
 layout: home
-
+title: 主页
 hero:
   name: "SakuraJP"
   text: "樱花日语在线\n教材详解与拓展"

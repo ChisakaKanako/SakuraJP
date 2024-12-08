@@ -41,6 +41,9 @@ export default defineConfig({
     darkModeSwitchLabel: '深色模式',
     outlineTitle: '在此页面中',
     returnToTopLabel: '回到顶部',
+    footer: {
+      copyright: '© 2024 樱花国际日语 版权所有，本站仅作摘抄'
+    },
     docFooter: {
       prev: '上一页',
       next: '下一页',
