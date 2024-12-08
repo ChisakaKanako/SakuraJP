@@ -4,6 +4,7 @@ import sidebar from './sidebar.json'
 export default defineConfig({
   title: " SakuraJP",
   description: "樱花日语教材在线",
+  base: '/',
   head: [
     ['link', { rel: 'icon', href: '/icon.png'}]
   ],
