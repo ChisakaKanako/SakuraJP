@@ -1,0 +1,21 @@
+[
+    {
+      "text": "第一级别",
+      "collapsed": true,
+      "items": [
+        { "text": "日语的书写及发音", "link": "/document/level1/intro" },
+        { "text": "Unit1 日语五十音（1）あ行、か行", "link": "/document/level1/unit1" },
+        { "text": "Unit2 日语五十音（2）さ行、た行", "link": "/document/level1/unit2" },
+        { "text": "Unit3 日语五十音（3）な行、は行", "link": "/document/level1/unit3" },
+        { "text": "Unit4 日语五十音（4）ま行、や行、ら行及其他", "link": "/document/level1/unit4" },
+        { "text": "Unit5 浊音 • 半浊音", "link": "/document/level1/unit5" },
+        { "text": "Unit6 长音", "link": "/document/level1/unit6" },
+        { "text": "Unit7 促音 • 声调", "link": "/document/level1/unit7" },
+        { "text": "Unit8 拗音 • 英语字母", "link": "/document/level1/unit8" },
+        { "text": "Unit9 常用单词", "link": "/document/level1/unit9" },
+        { "text": "Unit10 常用短语及形容词、副词", "link": "/document/level1/unit10" },
+        { "text": "Unit11 数字 • 时间", "link": "/document/level1/unit11" },
+        { "text": "Unit12 预备课", "link": "/document/level1/unit12" }
+      ]
+    }
+  ]

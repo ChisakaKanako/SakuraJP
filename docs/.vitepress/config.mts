@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import mdPangu from 'markdown-it-pangu'
+import sidebar from './sidebar.json'
 export default defineConfig({
   title: " SakuraJP",
   description: "樱花日语教材在线",
@@ -12,6 +13,12 @@ export default defineConfig({
     },
   },
   themeConfig: {
+    lastUpdated: {
+      text: '本页面最后更新于',
+      formatOptions: {
+        dateStyle: 'medium'
+      }
+    },
     search: {
       provider: 'local',
       options: {
@@ -42,7 +49,7 @@ export default defineConfig({
     outlineTitle: '在此页面中',
     returnToTopLabel: '回到顶部',
     footer: {
-      copyright: '© 2024 樱花国际日语 版权所有，本站仅作摘抄'
+      copyright: '© 樱花国际日语 版权所有，本站仅作摘抄'
     },
     docFooter: {
       prev: '上一页',
@@ -53,20 +60,12 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: '第一级别',
+
+        text: '实用工具',
+        collapsed: true,
         items: [
-          { text: 'Unit1', link: '/document/level1/unit1' },
-          { text: 'Unit2', link: '/document/level1/unit2' },
-          { text: 'Unit3', link: '/document/level1/unit3' },
-          { text: 'Unit4', link: '/document/level1/unit4' },
-          { text: 'Unit5', link: '/document/level1/unit5' },
-          { text: 'Unit6', link: '/document/level1/unit6' },
-          { text: 'Unit7', link: '/document/level1/unit7' },
-          { text: 'Unit8', link: '/document/level1/unit8' },
-          { text: 'Unit9', link: '/document/level1/unit9' },
-          { text: 'Unit10', link: '/document/level1/unit10' },
-          { text: 'Unit11', link: '/document/level1/unit11' },
-          { text: 'Unit12', link: '/document/level1/unit12' }
+          { text: 'MOJi辞書', link: 'https://www.mojidict.com/' },
+          { text: 'DeepL', link: 'https://www.deepl.com/zh/translator' }
         ]
       }
     ]
