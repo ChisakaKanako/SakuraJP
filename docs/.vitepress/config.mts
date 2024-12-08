@@ -59,8 +59,8 @@ export default defineConfig({
       { text: '主页', link: '/' },
     ],
     sidebar: [
+      sidebar,
       {
-
         text: '实用工具',
         collapsed: true,
         items: [
