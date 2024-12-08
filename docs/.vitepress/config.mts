@@ -56,7 +56,17 @@ export default defineConfig({
         text: '第一级别',
         items: [
           { text: 'Unit1', link: '/document/level1/unit1' },
-          { text: 'Unit2', link: '/document/level1/unit2' }
+          { text: 'Unit2', link: '/document/level1/unit2' },
+          { text: 'Unit3', link: '/document/level1/unit3' },
+          { text: 'Unit4', link: '/document/level1/unit4' },
+          { text: 'Unit5', link: '/document/level1/unit5' },
+          { text: 'Unit6', link: '/document/level1/unit6' },
+          { text: 'Unit7', link: '/document/level1/unit7' },
+          { text: 'Unit8', link: '/document/level1/unit8' },
+          { text: 'Unit9', link: '/document/level1/unit9' },
+          { text: 'Unit10', link: '/document/level1/unit10' },
+          { text: 'Unit11', link: '/document/level1/unit11' },
+          { text: 'Unit12', link: '/document/level1/unit12' }
         ]
       }
     ]
