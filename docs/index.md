@@ -8,7 +8,7 @@ hero:
     src: /flag.png
   actions:
     - theme: brand
-      text: 查看文档
+      text: 开始学习
       link: welcome
 
 features:
